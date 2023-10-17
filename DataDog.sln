@@ -3,7 +3,31 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataDog.Database", "src\DataDog.Database\DataDog.Database.csproj", "{671E4823-6B8B-4361-9F47-18BEAC59DF4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataDog.Test", "src\DataDog.Test\DataDog.Test.csproj", "{582A52EF-B1CB-4C1D-A666-72F5F173EB0E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataDog.Service", "src\DataDog.Service\DataDog.Service.csproj", "{EA7AE7D8-60A6-4477-B3C3-D8766696C4E7}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{671E4823-6B8B-4361-9F47-18BEAC59DF4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{671E4823-6B8B-4361-9F47-18BEAC59DF4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{671E4823-6B8B-4361-9F47-18BEAC59DF4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{671E4823-6B8B-4361-9F47-18BEAC59DF4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{582A52EF-B1CB-4C1D-A666-72F5F173EB0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{582A52EF-B1CB-4C1D-A666-72F5F173EB0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{582A52EF-B1CB-4C1D-A666-72F5F173EB0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{582A52EF-B1CB-4C1D-A666-72F5F173EB0E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA7AE7D8-60A6-4477-B3C3-D8766696C4E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7AE7D8-60A6-4477-B3C3-D8766696C4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7AE7D8-60A6-4477-B3C3-D8766696C4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7AE7D8-60A6-4477-B3C3-D8766696C4E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
